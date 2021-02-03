@@ -8,3 +8,831 @@ Started GET "/" for ::1 at 2015-11-16 16:12:00 -0600
 Processing by Rails::WelcomeController#index as HTML
   Rendered /Users/admin/.rvm/gems/ruby-2.1.2/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
 Completed 200 OK in 48ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+Started GET "/" for 127.0.0.1 at 2021-02-02 17:33:11 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb (10.8ms)
+Completed 200 OK in 70ms (Views: 37.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2021-02-03 00:34:55 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.0.7.1) lib/active_record/migration.rb:573:in `check_pending!'
+activerecord (5.0.7.1) lib/active_record/migration.rb:549:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/home/aaviles7/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/home/aaviles7/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/home/aaviles7/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (1.0ms)
+  Rendering /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendering /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (195.4ms)
+Started GET "/" for 127.0.0.1 at 2021-02-03 00:34:59 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.0.7.1) lib/active_record/migration.rb:573:in `check_pending!'
+activerecord (5.0.7.1) lib/active_record/migration.rb:549:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/home/aaviles7/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/home/aaviles7/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/home/aaviles7/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (1.4ms)
+  Rendering /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendering /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (35.0ms)
+  [1m[35m (16.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateHelloWorlds (20210203053405)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE "hello_worlds" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210203053405"]]
+  [1m[35m (7.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-02-03 05:35:14.837304"], ["updated_at", "2021-02-03 05:35:14.837304"]]
+  [1m[35m (9.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 127.0.0.1 at 2021-02-03 00:35:25 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb (3.6ms)
+Completed 200 OK in 40ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hello_world" for 127.0.0.1 at 2021-02-03 00:35:34 -0500
+  
+ActionController::RoutingError (uninitialized constant HelloWorldController):
+  
+activesupport (5.0.7.1) lib/active_support/inflector/methods.rb:268:in `const_get'
+activesupport (5.0.7.1) lib/active_support/inflector/methods.rb:268:in `block in constantize'
+activesupport (5.0.7.1) lib/active_support/inflector/methods.rb:266:in `each'
+activesupport (5.0.7.1) lib/active_support/inflector/methods.rb:266:in `inject'
+activesupport (5.0.7.1) lib/active_support/inflector/methods.rb:266:in `constantize'
+actionpack (5.0.7.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.0.7.1) lib/action_dispatch/routing/route_set.rb:44:in `controller'
+actionpack (5.0.7.1) lib/action_dispatch/routing/route_set.rb:30:in `serve'
+actionpack (5.0.7.1) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.7.1) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.7.1) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.7.1) lib/action_dispatch/routing/route_set.rb:727:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.7.1) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/home/aaviles7/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/home/aaviles7/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/home/aaviles7/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered collection of /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [16 times] (2.8ms)
+  Rendered /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (35.9ms)
+  Rendering /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (108.7ms)
+Started GET "/hello_worlds" for 127.0.0.1 at 2021-02-03 00:35:41 -0500
+Processing by HelloWorldsController#index as HTML
+  Rendering hello_worlds/index.html.erb within layouts/application
+  [1m[36mHelloWorld Load (0.3ms)[0m  [1m[34mSELECT "hello_worlds".* FROM "hello_worlds"[0m
+  Rendered hello_worlds/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1502ms (Views: 1492.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2021-02-03 00:38:29 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/railties-5.0.7.1/lib/rails/templates/rails/welcome/index.html.erb (3.4ms)
+Completed 200 OK in 19ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fdjhsbkf" for 127.0.0.1 at 2021-02-03 00:38:33 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/fdjhsbkf"):
+  
+actionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/home/aaviles7/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/home/aaviles7/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/home/aaviles7/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered collection of /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [16 times] (2.6ms)
+  Rendered /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.0ms)
+  Rendering /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (59.8ms)
+Started GET "/hello_world" for 127.0.0.1 at 2021-02-03 00:38:48 -0500
+  
+ActionController::RoutingError (uninitialized constant HelloWorldController):
+  
+activesupport (5.0.7.1) lib/active_support/inflector/methods.rb:268:in `const_get'
+activesupport (5.0.7.1) lib/active_support/inflector/methods.rb:268:in `block in constantize'
+activesupport (5.0.7.1) lib/active_support/inflector/methods.rb:266:in `each'
+activesupport (5.0.7.1) lib/active_support/inflector/methods.rb:266:in `inject'
+activesupport (5.0.7.1) lib/active_support/inflector/methods.rb:266:in `constantize'
+actionpack (5.0.7.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.0.7.1) lib/action_dispatch/routing/route_set.rb:44:in `controller'
+actionpack (5.0.7.1) lib/action_dispatch/routing/route_set.rb:30:in `serve'
+actionpack (5.0.7.1) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.7.1) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.7.1) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.7.1) lib/action_dispatch/routing/route_set.rb:727:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.7.1) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/home/aaviles7/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/home/aaviles7/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/home/aaviles7/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered collection of /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [16 times] (3.1ms)
+  Rendered /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendering /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (45.0ms)
+Started GET "/hello_world" for 127.0.0.1 at 2021-02-03 00:39:45 -0500
+  
+ActionController::RoutingError (uninitialized constant HelloWorldController):
+  
+activesupport (5.0.7.1) lib/active_support/inflector/methods.rb:268:in `const_get'
+activesupport (5.0.7.1) lib/active_support/inflector/methods.rb:268:in `block in constantize'
+activesupport (5.0.7.1) lib/active_support/inflector/methods.rb:266:in `each'
+activesupport (5.0.7.1) lib/active_support/inflector/methods.rb:266:in `inject'
+activesupport (5.0.7.1) lib/active_support/inflector/methods.rb:266:in `constantize'
+actionpack (5.0.7.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.0.7.1) lib/action_dispatch/routing/route_set.rb:44:in `controller'
+actionpack (5.0.7.1) lib/action_dispatch/routing/route_set.rb:30:in `serve'
+actionpack (5.0.7.1) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.7.1) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.7.1) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.7.1) lib/action_dispatch/routing/route_set.rb:727:in `call'
+rack (2.0.6) lib/rack/etag.rb:25:in `call'
+rack (2.0.6) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.6) lib/rack/head.rb:12:in `call'
+rack (2.0.6) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.6) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.7.1) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.7.1) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.7.1) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.7.1) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.7.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.7.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.7.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.7.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.7.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.7.1) lib/rails/engine.rb:522:in `call'
+rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
+/home/aaviles7/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+/home/aaviles7/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+/home/aaviles7/.rvm/rubies/ruby-2.6.1/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+  Rendering /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered collection of /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [16 times] (2.3ms)
+  Rendered /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendering /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/aaviles7/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (44.6ms)
+Started GET "/hello_worlds" for 127.0.0.1 at 2021-02-03 00:40:42 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HelloWorldsController#index as HTML
+  Rendering hello_worlds/index.html.erb within layouts/application
+  [1m[36mHelloWorld Load (0.2ms)[0m  [1m[34mSELECT "hello_worlds".* FROM "hello_worlds"[0m
+  Rendered hello_worlds/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 386ms (Views: 376.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/hello_worlds/new" for 127.0.0.1 at 2021-02-03 00:40:44 -0500
+Processing by HelloWorldsController#new as HTML
+  Rendering hello_worlds/new.html.erb within layouts/application
+  Rendered hello_worlds/_form.html.erb (3.3ms)
+  Rendered hello_worlds/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 19ms (Views: 15.5ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/hello_worlds" for 127.0.0.1 at 2021-02-03 00:40:46 -0500
+Processing by HelloWorldsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XxyjWy1yjRXKQ2GI8+ouKSc7dEfEtQYXvSYPzrC+DcVmQ4MPjPjVbHP7vssPNfwl3luG2C6vkvBMHRD5rcwQHQ==", "commit"=>"Create Hello world"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "hello_worlds" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2021-02-03 05:40:46.891028"], ["updated_at", "2021-02-03 05:40:46.891028"]]
+  [1m[35m (7.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3001/hello_worlds/1
+Completed 302 Found in 10ms (ActiveRecord: 7.8ms)
+
+
+Started GET "/hello_worlds/1" for 127.0.0.1 at 2021-02-03 00:40:46 -0500
+Processing by HelloWorldsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mHelloWorld Load (0.2ms)[0m  [1m[34mSELECT  "hello_worlds".* FROM "hello_worlds" WHERE "hello_worlds"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering hello_worlds/show.html.erb within layouts/application
+  Rendered hello_worlds/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 28ms (Views: 14.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/hello_worlds" for 127.0.0.1 at 2021-02-03 00:40:49 -0500
+Processing by HelloWorldsController#index as HTML
+  Rendering hello_worlds/index.html.erb within layouts/application
+  [1m[36mHelloWorld Load (0.2ms)[0m  [1m[34mSELECT "hello_worlds".* FROM "hello_worlds"[0m
+  Rendered hello_worlds/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/hello_worlds/new" for 127.0.0.1 at 2021-02-03 00:40:53 -0500
+Processing by HelloWorldsController#new as HTML
+  Rendering hello_worlds/new.html.erb within layouts/application
+  Rendered hello_worlds/_form.html.erb (0.8ms)
+  Rendered hello_worlds/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 16ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/hello_worlds" for 127.0.0.1 at 2021-02-03 00:40:54 -0500
+Processing by HelloWorldsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YX5v0NjpR3aL2U+MAEojIVXf1KyyuL2ET9lk8GCgwRZYIU+EeWMfDzJhkM/8lfEtrL8mM1iiKWO+4nvHfdLczg==", "commit"=>"Create Hello world"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "hello_worlds" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2021-02-03 05:40:54.543361"], ["updated_at", "2021-02-03 05:40:54.543361"]]
+  [1m[35m (7.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3001/hello_worlds/2
+Completed 302 Found in 10ms (ActiveRecord: 7.9ms)
+
+
+Started GET "/hello_worlds/2" for 127.0.0.1 at 2021-02-03 00:40:54 -0500
+Processing by HelloWorldsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mHelloWorld Load (0.2ms)[0m  [1m[34mSELECT  "hello_worlds".* FROM "hello_worlds" WHERE "hello_worlds"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering hello_worlds/show.html.erb within layouts/application
+  Rendered hello_worlds/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 15ms (Views: 12.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/hello_worlds" for 127.0.0.1 at 2021-02-03 00:40:55 -0500
+Processing by HelloWorldsController#index as HTML
+  Rendering hello_worlds/index.html.erb within layouts/application
+  [1m[36mHelloWorld Load (0.2ms)[0m  [1m[34mSELECT "hello_worlds".* FROM "hello_worlds"[0m
+  Rendered hello_worlds/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/hello_worlds/new" for 127.0.0.1 at 2021-02-03 00:40:56 -0500
+Processing by HelloWorldsController#new as HTML
+  Rendering hello_worlds/new.html.erb within layouts/application
+  Rendered hello_worlds/_form.html.erb (0.7ms)
+  Rendered hello_worlds/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/hello_worlds" for 127.0.0.1 at 2021-02-03 00:40:57 -0500
+Processing by HelloWorldsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aB+GlkEDCOPdWbnYQTRmppLfhTHiMTsGayrujoZOpgRRQKbC4IlQmmThZpu967Sqa793rggrr+GaEfG5mzy73A==", "commit"=>"Create Hello world"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "hello_worlds" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2021-02-03 05:40:57.151735"], ["updated_at", "2021-02-03 05:40:57.151735"]]
+  [1m[35m (7.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3001/hello_worlds/3
+Completed 302 Found in 10ms (ActiveRecord: 8.2ms)
+
+
+Started GET "/hello_worlds/3" for 127.0.0.1 at 2021-02-03 00:40:57 -0500
+Processing by HelloWorldsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mHelloWorld Load (0.2ms)[0m  [1m[34mSELECT  "hello_worlds".* FROM "hello_worlds" WHERE "hello_worlds"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering hello_worlds/show.html.erb within layouts/application
+  Rendered hello_worlds/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/hello_worlds" for 127.0.0.1 at 2021-02-03 00:40:57 -0500
+Processing by HelloWorldsController#index as HTML
+  Rendering hello_worlds/index.html.erb within layouts/application
+  [1m[36mHelloWorld Load (0.2ms)[0m  [1m[34mSELECT "hello_worlds".* FROM "hello_worlds"[0m
+  Rendered hello_worlds/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 16ms (Views: 13.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/hello_worlds" for 127.0.0.1 at 2021-02-03 00:41:54 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HelloWorldsController#index as HTML
+  Rendering hello_worlds/index.html.erb within layouts/application
+  [1m[36mHelloWorld Load (0.2ms)[0m  [1m[34mSELECT "hello_worlds".* FROM "hello_worlds"[0m
+  Rendered hello_worlds/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 214ms (Views: 202.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/hello_worlds/new" for 127.0.0.1 at 2021-02-03 00:41:56 -0500
+Processing by HelloWorldsController#new as HTML
+  Rendering hello_worlds/new.html.erb within layouts/application
+  Rendered hello_worlds/_form.html.erb (3.1ms)
+  Rendered hello_worlds/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/hello_worlds" for 127.0.0.1 at 2021-02-03 00:41:57 -0500
+Processing by HelloWorldsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RzMjV1qertira6UMjv9oKvwtTckCNS7hRKIZzz73NyZ+bAMD+xT2oRLTek9yILomBU2/Vugvuga1mQb4I4Uq/g==", "commit"=>"Create Hello world"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "hello_worlds" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2021-02-03 05:41:57.055978"], ["updated_at", "2021-02-03 05:41:57.055978"]]
+  [1m[35m (7.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3001/hello_worlds/4
+Completed 302 Found in 10ms (ActiveRecord: 7.9ms)
+
+
+Started GET "/hello_worlds/4" for 127.0.0.1 at 2021-02-03 00:41:57 -0500
+Processing by HelloWorldsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mHelloWorld Load (0.2ms)[0m  [1m[34mSELECT  "hello_worlds".* FROM "hello_worlds" WHERE "hello_worlds"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering hello_worlds/show.html.erb within layouts/application
+  Rendered hello_worlds/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 17ms (Views: 11.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/hello_worlds" for 127.0.0.1 at 2021-02-03 00:41:57 -0500
+Processing by HelloWorldsController#index as HTML
+  Rendering hello_worlds/index.html.erb within layouts/application
+  [1m[36mHelloWorld Load (0.2ms)[0m  [1m[34mSELECT "hello_worlds".* FROM "hello_worlds"[0m
+  Rendered hello_worlds/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 14ms (Views: 12.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/hello_worlds/new" for 127.0.0.1 at 2021-02-03 00:41:58 -0500
+Processing by HelloWorldsController#new as HTML
+  Rendering hello_worlds/new.html.erb within layouts/application
+  Rendered hello_worlds/_form.html.erb (0.8ms)
+  Rendered hello_worlds/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 15ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/hello_worlds" for 127.0.0.1 at 2021-02-03 00:41:59 -0500
+Processing by HelloWorldsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"m/tapyYBJr5HQSQLKiUQIGty1+D2zHmboZGg0/yWT2SipHrzh4t+x/75+0jW+sIskhIlfxzW7XxQqr/k4eRSvA==", "commit"=>"Create Hello world"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "hello_worlds" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2021-02-03 05:41:59.633533"], ["updated_at", "2021-02-03 05:41:59.633533"]]
+  [1m[35m (7.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3001/hello_worlds/5
+Completed 302 Found in 10ms (ActiveRecord: 8.3ms)
+
+
+Started GET "/hello_worlds/5" for 127.0.0.1 at 2021-02-03 00:41:59 -0500
+Processing by HelloWorldsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mHelloWorld Load (0.2ms)[0m  [1m[34mSELECT  "hello_worlds".* FROM "hello_worlds" WHERE "hello_worlds"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering hello_worlds/show.html.erb within layouts/application
+  Rendered hello_worlds/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 15ms (Views: 12.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/hello_worlds" for 127.0.0.1 at 2021-02-03 00:42:00 -0500
+Processing by HelloWorldsController#index as HTML
+  Rendering hello_worlds/index.html.erb within layouts/application
+  [1m[36mHelloWorld Load (0.2ms)[0m  [1m[34mSELECT "hello_worlds".* FROM "hello_worlds"[0m
+  Rendered hello_worlds/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/hello_worlds/new" for 127.0.0.1 at 2021-02-03 00:42:01 -0500
+Processing by HelloWorldsController#new as HTML
+  Rendering hello_worlds/new.html.erb within layouts/application
+  Rendered hello_worlds/_form.html.erb (1.0ms)
+  Rendered hello_worlds/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/hello_worlds" for 127.0.0.1 at 2021-02-03 00:42:01 -0500
+Processing by HelloWorldsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BldEqMiYA1b/uviK0wnVAfoug+m/Kr+jWDG6HBx2ycI/CGT8aRJbL0YCJ8kv1gcNA05xdlUwK0SpCqUrAQTUGg==", "commit"=>"Create Hello world"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "hello_worlds" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2021-02-03 05:42:01.825301"], ["updated_at", "2021-02-03 05:42:01.825301"]]
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3001/hello_worlds/6
+Completed 302 Found in 5ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/hello_worlds/6" for 127.0.0.1 at 2021-02-03 00:42:01 -0500
+Processing by HelloWorldsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mHelloWorld Load (0.1ms)[0m  [1m[34mSELECT  "hello_worlds".* FROM "hello_worlds" WHERE "hello_worlds"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering hello_worlds/show.html.erb within layouts/application
+  Rendered hello_worlds/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/hello_worlds" for 127.0.0.1 at 2021-02-03 00:42:02 -0500
+Processing by HelloWorldsController#index as HTML
+  Rendering hello_worlds/index.html.erb within layouts/application
+  [1m[36mHelloWorld Load (0.2ms)[0m  [1m[34mSELECT "hello_worlds".* FROM "hello_worlds"[0m
+  Rendered hello_worlds/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 15ms (Views: 13.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/hello_worlds/new" for 127.0.0.1 at 2021-02-03 00:42:03 -0500
+Processing by HelloWorldsController#new as HTML
+  Rendering hello_worlds/new.html.erb within layouts/application
+  Rendered hello_worlds/_form.html.erb (0.7ms)
+  Rendered hello_worlds/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/hello_worlds" for 127.0.0.1 at 2021-02-03 00:42:04 -0500
+Processing by HelloWorldsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VvxrcX1ELCV2ji7Ascl4tvYXwFgAkZzZtdzLm8B0Bs9vo0sl3M50XM828YNNFqq6D3cyx+qLCD5E59Ss3QYbFw==", "commit"=>"Create Hello world"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "hello_worlds" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2021-02-03 05:42:04.025352"], ["updated_at", "2021-02-03 05:42:04.025352"]]
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3001/hello_worlds/7
+Completed 302 Found in 4ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/hello_worlds/7" for 127.0.0.1 at 2021-02-03 00:42:04 -0500
+Processing by HelloWorldsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mHelloWorld Load (0.2ms)[0m  [1m[34mSELECT  "hello_worlds".* FROM "hello_worlds" WHERE "hello_worlds"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering hello_worlds/show.html.erb within layouts/application
+  Rendered hello_worlds/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/hello_worlds" for 127.0.0.1 at 2021-02-03 00:42:04 -0500
+Processing by HelloWorldsController#index as HTML
+  Rendering hello_worlds/index.html.erb within layouts/application
+  [1m[36mHelloWorld Load (0.2ms)[0m  [1m[34mSELECT "hello_worlds".* FROM "hello_worlds"[0m
+  Rendered hello_worlds/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/hello_worlds/new" for 127.0.0.1 at 2021-02-03 00:42:05 -0500
+Processing by HelloWorldsController#new as HTML
+  Rendering hello_worlds/new.html.erb within layouts/application
+  Rendered hello_worlds/_form.html.erb (0.8ms)
+  Rendered hello_worlds/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 31ms (Views: 29.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/hello_worlds" for 127.0.0.1 at 2021-02-03 00:42:06 -0500
+Processing by HelloWorldsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3pZQbb0YwvitmzV3OkEPsS7tsU2vWwUZzi+SdrOr4nTnyXA5HJKagRQj6jTGnt29141D0kVBkf4/FI1Brtn/rA==", "commit"=>"Create Hello world"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "hello_worlds" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2021-02-03 05:42:06.817144"], ["updated_at", "2021-02-03 05:42:06.817144"]]
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3001/hello_worlds/8
+Completed 302 Found in 5ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/hello_worlds/8" for 127.0.0.1 at 2021-02-03 00:42:06 -0500
+Processing by HelloWorldsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mHelloWorld Load (0.2ms)[0m  [1m[34mSELECT  "hello_worlds".* FROM "hello_worlds" WHERE "hello_worlds"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  Rendering hello_worlds/show.html.erb within layouts/application
+  Rendered hello_worlds/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 15ms (Views: 13.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/hello_worlds" for 127.0.0.1 at 2021-02-03 00:42:07 -0500
+Processing by HelloWorldsController#index as HTML
+  Rendering hello_worlds/index.html.erb within layouts/application
+  [1m[36mHelloWorld Load (0.2ms)[0m  [1m[34mSELECT "hello_worlds".* FROM "hello_worlds"[0m
+  Rendered hello_worlds/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/hello_worlds/3/edit" for 127.0.0.1 at 2021-02-03 00:42:08 -0500
+Processing by HelloWorldsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mHelloWorld Load (0.1ms)[0m  [1m[34mSELECT  "hello_worlds".* FROM "hello_worlds" WHERE "hello_worlds"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering hello_worlds/edit.html.erb within layouts/application
+  Rendered hello_worlds/_form.html.erb (0.7ms)
+  Rendered hello_worlds/edit.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/hello_worlds/3" for 127.0.0.1 at 2021-02-03 00:42:10 -0500
+Processing by HelloWorldsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WGcRW70DjVr9L3ZiHckirnpIRVXc5HdZTq6vKZApq3phODEPHInVI0SXqSHhFvCigyi3yjb+476/lbAejVu2og==", "commit"=>"Update Hello world", "id"=>"3"}
+  [1m[36mHelloWorld Load (0.2ms)[0m  [1m[34mSELECT  "hello_worlds".* FROM "hello_worlds" WHERE "hello_worlds"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3001/hello_worlds/3
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/hello_worlds/3" for 127.0.0.1 at 2021-02-03 00:42:10 -0500
+Processing by HelloWorldsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mHelloWorld Load (0.1ms)[0m  [1m[34mSELECT  "hello_worlds".* FROM "hello_worlds" WHERE "hello_worlds"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering hello_worlds/show.html.erb within layouts/application
+  Rendered hello_worlds/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/hello_worlds" for 127.0.0.1 at 2021-02-03 00:42:11 -0500
+Processing by HelloWorldsController#index as HTML
+  Rendering hello_worlds/index.html.erb within layouts/application
+  [1m[36mHelloWorld Load (0.2ms)[0m  [1m[34mSELECT "hello_worlds".* FROM "hello_worlds"[0m
+  Rendered hello_worlds/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/hello_worlds/6/edit" for 127.0.0.1 at 2021-02-03 00:42:11 -0500
+Processing by HelloWorldsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mHelloWorld Load (0.2ms)[0m  [1m[34mSELECT  "hello_worlds".* FROM "hello_worlds" WHERE "hello_worlds"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering hello_worlds/edit.html.erb within layouts/application
+  Rendered hello_worlds/_form.html.erb (0.7ms)
+  Rendered hello_worlds/edit.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/hello_worlds/6" for 127.0.0.1 at 2021-02-03 00:42:12 -0500
+Processing by HelloWorldsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9/kRmdtm5Oqqqq7Q14yU8Jx4OJYjEAI2EXg8wk/W6ZbOpjHNeuy8kxMScZMrU0b8ZRjKCckKltHgQyP1UqT0Tg==", "commit"=>"Update Hello world", "id"=>"6"}
+  [1m[36mHelloWorld Load (0.2ms)[0m  [1m[34mSELECT  "hello_worlds".* FROM "hello_worlds" WHERE "hello_worlds"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3001/hello_worlds/6
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/hello_worlds/6" for 127.0.0.1 at 2021-02-03 00:42:12 -0500
+Processing by HelloWorldsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mHelloWorld Load (0.1ms)[0m  [1m[34mSELECT  "hello_worlds".* FROM "hello_worlds" WHERE "hello_worlds"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering hello_worlds/show.html.erb within layouts/application
+  Rendered hello_worlds/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 13ms (Views: 11.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/hello_worlds" for 127.0.0.1 at 2021-02-03 00:42:13 -0500
+Processing by HelloWorldsController#index as HTML
+  Rendering hello_worlds/index.html.erb within layouts/application
+  [1m[36mHelloWorld Load (0.2ms)[0m  [1m[34mSELECT "hello_worlds".* FROM "hello_worlds"[0m
+  Rendered hello_worlds/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/hello_worlds/8" for 127.0.0.1 at 2021-02-03 00:42:15 -0500
+Processing by HelloWorldsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ZqqE5za8sIfmcclZlJfaUJf3fT+WuKt+ioHgN8I3aMZf9aSzlzbo/l/JFhpoSAhcbpePoHyiP5l7uv8A30V1Hg==", "id"=>"8"}
+  [1m[36mHelloWorld Load (0.2ms)[0m  [1m[34mSELECT  "hello_worlds".* FROM "hello_worlds" WHERE "hello_worlds"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[31mDELETE FROM "hello_worlds" WHERE "hello_worlds"."id" = ?[0m  [["id", 8]]
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3001/hello_worlds
+Completed 302 Found in 5ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/hello_worlds" for 127.0.0.1 at 2021-02-03 00:42:15 -0500
+Processing by HelloWorldsController#index as HTML
+  Rendering hello_worlds/index.html.erb within layouts/application
+  [1m[36mHelloWorld Load (0.3ms)[0m  [1m[34mSELECT "hello_worlds".* FROM "hello_worlds"[0m
+  Rendered hello_worlds/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 15ms (Views: 13.0ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/hello_worlds/7" for 127.0.0.1 at 2021-02-03 00:42:17 -0500
+Processing by HelloWorldsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"UQkKwmmiXSw4fvuWubyMcDw9RaY1Ugv5tRfnXZdi5utoViqWyCgFVYHGJNVFY158xV23Od9Inx5ELPhqihD7Mw==", "id"=>"7"}
+  [1m[36mHelloWorld Load (0.2ms)[0m  [1m[34mSELECT  "hello_worlds".* FROM "hello_worlds" WHERE "hello_worlds"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[31mDELETE FROM "hello_worlds" WHERE "hello_worlds"."id" = ?[0m  [["id", 7]]
+  [1m[35m (57.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3001/hello_worlds
+Completed 302 Found in 60ms (ActiveRecord: 57.8ms)
+
+
+Started GET "/hello_worlds" for 127.0.0.1 at 2021-02-03 00:42:17 -0500
+Processing by HelloWorldsController#index as HTML
+  Rendering hello_worlds/index.html.erb within layouts/application
+  [1m[36mHelloWorld Load (0.2ms)[0m  [1m[34mSELECT "hello_worlds".* FROM "hello_worlds"[0m
+  Rendered hello_worlds/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 15ms (Views: 13.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/hello_worlds/new" for 127.0.0.1 at 2021-02-03 00:42:18 -0500
+Processing by HelloWorldsController#new as HTML
+  Rendering hello_worlds/new.html.erb within layouts/application
+  Rendered hello_worlds/_form.html.erb (0.7ms)
+  Rendered hello_worlds/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/hello_worlds" for 127.0.0.1 at 2021-02-03 00:42:19 -0500
+Processing by HelloWorldsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zBlRJnCe7tYjPAKwUCW1BpaLgyQuGHmW4OfPmxbnjGL1RnFy0RS2r5qE3fOs+mcKb+txu8QC7XER3NCsC5WRug==", "commit"=>"Create Hello world"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "hello_worlds" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2021-02-03 05:42:19.159754"], ["updated_at", "2021-02-03 05:42:19.159754"]]
+  [1m[35m (2.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3001/hello_worlds/9
+Completed 302 Found in 5ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/hello_worlds/9" for 127.0.0.1 at 2021-02-03 00:42:19 -0500
+Processing by HelloWorldsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mHelloWorld Load (0.1ms)[0m  [1m[34mSELECT  "hello_worlds".* FROM "hello_worlds" WHERE "hello_worlds"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering hello_worlds/show.html.erb within layouts/application
+  Rendered hello_worlds/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 13ms (Views: 11.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/hello_worlds/9/edit" for 127.0.0.1 at 2021-02-03 00:42:20 -0500
+Processing by HelloWorldsController#edit as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mHelloWorld Load (0.2ms)[0m  [1m[34mSELECT  "hello_worlds".* FROM "hello_worlds" WHERE "hello_worlds"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering hello_worlds/edit.html.erb within layouts/application
+  Rendered hello_worlds/_form.html.erb (0.8ms)
+  Rendered hello_worlds/edit.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 26ms (Views: 24.4ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/hello_worlds/9" for 127.0.0.1 at 2021-02-03 00:42:21 -0500
+Processing by HelloWorldsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jGE5n+EQz4Q2/B5If3/03+prkX4t5OQX/KjtFCEg3NO1PhnLQJqX/Y9EwQuDoCbTEwtj4cf+cPANk/IjPFLBCw==", "commit"=>"Update Hello world", "id"=>"9"}
+  [1m[36mHelloWorld Load (0.2ms)[0m  [1m[34mSELECT  "hello_worlds".* FROM "hello_worlds" WHERE "hello_worlds"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3001/hello_worlds/9
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/hello_worlds/9" for 127.0.0.1 at 2021-02-03 00:42:21 -0500
+Processing by HelloWorldsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mHelloWorld Load (0.2ms)[0m  [1m[34mSELECT  "hello_worlds".* FROM "hello_worlds" WHERE "hello_worlds"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering hello_worlds/show.html.erb within layouts/application
+  Rendered hello_worlds/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 15ms (Views: 12.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/hello_worlds" for 127.0.0.1 at 2021-02-03 00:42:21 -0500
+Processing by HelloWorldsController#index as HTML
+  Rendering hello_worlds/index.html.erb within layouts/application
+  [1m[36mHelloWorld Load (0.2ms)[0m  [1m[34mSELECT "hello_worlds".* FROM "hello_worlds"[0m
+  Rendered hello_worlds/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.2ms)
+
+
